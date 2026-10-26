@@ -1,0 +1,25 @@
+line-length = 88
+target-version = "py314"
+unsafe-fixes = true
+
+[lint]
+preview = true
+select = [
+  "correctness",
+  "suspicious",
+  "complexity",
+  "performance",
+  "style",
+  "security",
+  "formatting",
+  "pedantic",
+  "restriction",
+
+  "C9",
+]
+mccabe.max-complexity = 5
+
+ignore = ["non-empty-init-module", "print"]
+
+[lint.pylint]
+max-branches = 5
