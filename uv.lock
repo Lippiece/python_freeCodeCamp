@@ -2,12 +2,6 @@ version = 1
 revision = 5
 requires-python = ">=3.14"
 
-[manifest]
-members = [
-    "root-py",
-    "travel-weather-planner",
-]
-
 [[package]]
 name = "colorama"
 version = "0.4.6"
@@ -73,11 +67,6 @@ wheels = [
 name = "root-py"
 version = "0.1.0"
 source = { editable = "." }
-
-[[package]]
-name = "travel-weather-planner"
-version = "0.1.0"
-source = { editable = "travel_weather_planner" }
 dependencies = [
     { name = "pytest" },
 ]
